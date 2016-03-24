@@ -1,0 +1,20 @@
+p[style-name='Title'] 			  => h1.title
+p[style-name='Subtitle'] 		  => h1.title > small:fresh
+p[style-name='No Spacing'] 		  => p.no-spacing:fresh
+p[style-name='Quote'] 			  => blockquote > p:fresh
+p[style-name='Intense Quote'] 	  => blockquote.intense > p:fresh
+p[style-name='List Paragraph'] 	  => p.list
+p[style-name='heading 5'] 		  => h5
+p[style-name='heading 6'] 		  => h6
+p[style-name='heading 7'] 		  => p:fresh > strong > em
+p[style-name='heading 8'] 		  => p:fresh > strong
+p[style-name='heading 9'] 		  => p:fresh > em
+r[style-name='Subtle Emphasis']   => em.subtle
+r[style-name='Emphasis'] 		  => em
+r[style-name='Intense Emphasis']  => em.intense
+r[style-name='Strong'] 			  => strong
+r[style-name='Subtle Reference']  => cite.subtle
+r[style-name='Intense Reference'] => cite.intense
+r[style-name='Book Title'] 		  => cite.book-title
+p[style-name='Test Style'] 		  => section.test-style > h1:fresh
+p[style-name='Test Style2'] 	  => section.test-style > p:fresh

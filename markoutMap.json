@@ -1,0 +1,90 @@
+{
+	"start": "#",
+	"end": "/",
+	"wrappers": [
+		{
+			"token": "activity",
+			"wrapper": "<div class='activity'>"
+		},
+		{
+			"token": "group-activity",
+			"wrapper": "<div class='group-activity'>"
+		},
+		{
+			"token": "case",
+			"wrapper": "<div class='case'>"
+		},
+		{
+			"token": "readings",
+			"wrapper": "<div class='readings'>"
+		},
+		{
+			"token": "discussion",
+			"wrapper": "<div class='discussion'>"
+		},
+		{
+			"token": "review",
+			"wrapper": "<div class='review'>"
+		},
+		{
+			"token": "to-do",
+			"wrapper": "<div class='to-do'>"
+		},
+		{
+			"token": "outcomes",
+			"wrapper": "<div class='outcomes'>"
+		},
+		{
+			"token": "note",
+			"wrapper": "<div class='note'>"
+		},
+		{
+			"token": "keypoints",
+			"wrapper": "<div class='keypoints'>"
+		},
+		{
+			"token": "warning",
+			"wrapper": "<div class='warning'>"
+		},
+		{
+			"token": "info",
+			"wrapper": "<div class='info'>"
+		},
+		{
+			"token": "links",
+			"wrapper": "<div class='links'>"
+		},
+		{
+			"token": "reminder",
+			"wrapper": "<div class='reminder'>"
+		},
+		{
+			"token": "notification",
+			"wrapper": "<div class='notification'>"
+		},
+		{
+			"token": "definition",
+			"wrapper": "<div class='definition'>"
+		},
+		{
+			"token": "alert",
+			"wrapper": "<div class='alert'>"
+		},
+		{
+			"token": "example",
+			"wrapper": "<div class='example'>"
+		},
+		{
+			"token": "hint",
+			"wrapper": "<div class='hint'>"
+		},
+		{
+			"token": "message",
+			"wrapper": "<div class='message'>"
+		},
+		{
+			"token": "procedure",
+			"wrapper": "<div class='procedure'>"
+		}
+	]
+}
