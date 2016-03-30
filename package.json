@@ -1,13 +1,10 @@
 {
-  "name": "DeWordify2",
+  "name": "dewordify",
   "version": "1.0.0",
   "description": "Dewordify is used to facilitate the development of online course materials by converting MS Word documents into HTML pages.",
   "main": "index.js",
   "bin": {
     "dewordify": "./bin/dewordify"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
     "name": "Mike Taylor"
@@ -17,10 +14,5 @@
     "cheerio": "^0.20.0",
     "js-beautify": "^1.6.2",
     "mammoth": "^0.3.32"
-  },
-  "readme": "# Dewordify2\r\n\r\nDewordify is used to facilitate the development of online course materials by converting MS Word documents into HTML pages.\r\n\r\n\r\n```\r\nnpm install -g dewordify\r\n```\r\n\r\n## Usage\r\nIn the command line, navigate to the location of the Word Document and run\r\n\r\n```\r\ncd path/to/file/location\r\ndewordify file_name.docx\r\n```\r\n\r\n\r\n## Dependancies:\r\nThe following packages make this project possible.\r\n* [MammothJS](https://www.npmjs.com/package/mammoth) - Performs the initial conversion from docx to html\r\n* [Cheerio](https://www.npmjs.com/package/cheerio) - Implements a jQuery like syntax within Nodejs for simple traversal and transformation of html structures.\r\n* [JSBeautify](https://www.npmjs.com/package/js-beautify) - Outputs human readable html.\r\n",
-  "readmeFilename": "README.md",
-  "_id": "DeWordify2@1.0.0",
-  "_shasum": "bc329e8cee8cd88c1adba77b153bd1680cdf91d8",
-  "_from": "..\\..\\Users\\a00751527\\Documents\\DeWordify2"
+  }
 }
