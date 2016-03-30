@@ -5,9 +5,9 @@ var markout = require("./lib/markout");
 var paginate = require("./lib/paginate");
 var templatize = require("./lib/templatize");
 var fileWriter = require("./lib/fileWriter");
-var autoChoice = require("./lib/autoChoice");
+var docxChooser = require("./lib/docxChooser");
 
-var docx = process.argv[2] || autoChoice(process.cwd());
+var docx = process.argv[2] || docxChooser(process.cwd());
 
 mammothize(docx).then(function(_html) {
 	var html = _html;
