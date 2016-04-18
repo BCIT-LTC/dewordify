@@ -85,6 +85,34 @@
 		{
 			"token": "procedure",
 			"wrapper": "<div class='procedure'>"
+		},
+        {
+			"token": "quote",
+			"wrapper": "<div class='quote'>"
+		},
+        {
+			"token": "citation",
+			"wrapper": "<div class='cite'>"
+		},
+        {
+			"token": "image",
+			"wrapper": "<div class='image'>"
+		},
+        {
+			"token": "caption",
+			"wrapper": "<div class='caption'>"
+		},
+        {
+			"token": "reflection",
+			"wrapper": "<div class='reflection'>"
+		},
+        {
+			"token": "assignment",
+			"wrapper": "<div class='assignment'>"
+		},
+        {
+			"token": "quiz",
+			"wrapper": "<div class='quiz'>"
 		}
 	]
 }
