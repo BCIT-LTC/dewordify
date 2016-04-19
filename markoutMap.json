@@ -16,7 +16,7 @@
 		},
 		{
 			"token": "caption",
-			"wrapper": "<div class='caption'>
+			"wrapper": "<div class='caption'>"
 		},
 		{
 			"token": "case",
@@ -27,12 +27,12 @@
 			"wrapper": "<div class='cite'>"
 		},
 		{
-			"token": "discussion",
-			"wrapper": "<div class='discussion'>"
-		},
-		{
 			"token": "definition",
 			"wrapper": "<div class='definition'>"
+		},
+		{
+			"token": "discussion",
+			"wrapper": "<div class='discussion'>"
 		},
 		{
 			"token": "example",
@@ -83,28 +83,28 @@
 			"wrapper": "<div class='procedure'>"
 		},
 		{
-			"token": "quote",
-			"wrapper": "<div class='quote'>"
-		},
-		{
 			"token": "quiz",
 			"wrapper": "<div class='quiz'>"
+		},
+		{
+			"token": "quote",
+			"wrapper": "<div class='quote'>"
 		},
 		{
 			"token": "readings",
 			"wrapper": "<div class='readings'>"
 		},
 		{
-			"token": "review",
-			"wrapper": "<div class='review'>"
+			"token": "reflection",
+			"wrapper": "<div class='reflection'>"
 		},
 		{
 			"token": "reminder",
 			"wrapper": "<div class='reminder'>"
 		},
 		{
-			"token": "reflection",
-			"wrapper": "<div class='reflection'>"
+			"token": "review",
+			"wrapper": "<div class='review'>"
 		},
 		{
 			"token": "to-do",
