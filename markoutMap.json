@@ -4,115 +4,115 @@
 	"wrappers": [
 		{
 			"token": "activity",
-			"wrapper": "<div class='activity'>",
+			"wrapper": "<div class='activity'>"
 		},
 		{
 			"token": "alert",
-			"wrapper": "<div class='alert'>",
+			"wrapper": "<div class='alert'>"
 		},
 		{
 			"token": "assignment",
-			"wrapper": "<div class='assignment'>",
+			"wrapper": "<div class='assignment'>"
 		},
 		{
 			"token": "caption",
-			"wrapper": "<div class='caption'>"
+			"wrapper": "<div class='caption'>
 		},
 		{
 			"token": "case",
-			"wrapper": "<div class='case'>",
+			"wrapper": "<div class='case'>"
 		},
 		{
 			"token": "citation",
-			"wrapper": "<div class='cite'>",
+			"wrapper": "<div class='cite'>"
 		},
 		{
 			"token": "discussion",
-			"wrapper": "<div class='discussion'>",
+			"wrapper": "<div class='discussion'>"
 		},
 		{
 			"token": "definition",
-			"wrapper": "<div class='definition'>",
+			"wrapper": "<div class='definition'>"
 		},
 		{
 			"token": "example",
-			"wrapper": "<div class='example'>",
+			"wrapper": "<div class='example'>"
 		},
 		{
 			"token": "group-activity",
-			"wrapper": "<div class='group-activity'>",
+			"wrapper": "<div class='group-activity'>"
 		},
 		{
 			"token": "hint",
-			"wrapper": "<div class='hint'>",
+			"wrapper": "<div class='hint'>"
 		},
 		{
 			"token": "image",
-			"wrapper": "<div class='image'>",
+			"wrapper": "<div class='image'>"
 		},
 		{
 			"token": "info",
-			"wrapper": "<div class='info'>",
+			"wrapper": "<div class='info'>"
 		},
 		{
 			"token": "keypoints",
-			"wrapper": "<div class='keypoints'>",
+			"wrapper": "<div class='keypoints'>"
 		},
 		{
 			"token": "links",
-			"wrapper": "<div class='links'>",
+			"wrapper": "<div class='links'>"
 		},
 		{
 			"token": "message",
-			"wrapper": "<div class='message'>",
+			"wrapper": "<div class='message'>"
 		},
 		{
 			"token": "note",
-			"wrapper": "<div class='note'>",
+			"wrapper": "<div class='note'>"
 		},
 		{
 			"token": "notification",
-			"wrapper": "<div class='notification'>",
+			"wrapper": "<div class='notification'>"
 		},
 		{
 			"token": "outcomes",
-			"wrapper": "<div class='outcomes'>",
+			"wrapper": "<div class='outcomes'>"
 		},
 		{
 			"token": "procedure",
-			"wrapper": "<div class='procedure'>",
+			"wrapper": "<div class='procedure'>"
 		},
 		{
 			"token": "quote",
-			"wrapper": "<div class='quote'>",
+			"wrapper": "<div class='quote'>"
 		},
 		{
 			"token": "quiz",
-			"wrapper": "<div class='quiz'>",
+			"wrapper": "<div class='quiz'>"
 		},
 		{
 			"token": "readings",
-			"wrapper": "<div class='readings'>",
+			"wrapper": "<div class='readings'>"
 		},
 		{
 			"token": "review",
-			"wrapper": "<div class='review'>",
+			"wrapper": "<div class='review'>"
 		},
 		{
 			"token": "reminder",
-			"wrapper": "<div class='reminder'>",
+			"wrapper": "<div class='reminder'>"
 		},
 		{
 			"token": "reflection",
-			"wrapper": "<div class='reflection'>",
+			"wrapper": "<div class='reflection'>"
 		},
 		{
 			"token": "to-do",
-			"wrapper": "<div class='to-do'>",
+			"wrapper": "<div class='to-do'>"
 		},
 		{
 			"token": "warning",
-			"wrapper": "<div class='warning'>",
+			"wrapper": "<div class='warning'>"
 		}
   ]
 }
