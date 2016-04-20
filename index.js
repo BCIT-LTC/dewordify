@@ -19,6 +19,6 @@ mammothize(docx).then(function(_html) {
 	html = normalize(html);
 	htmlArray = paginate(html);
 	htmlArray = markout(htmlArray);
-	htmlArray = templatize(htmlArray);
+	htmlArray = templatize(htmlArray,".container");
 	fileWriter(htmlArray);
 });
