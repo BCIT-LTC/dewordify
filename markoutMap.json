@@ -6,7 +6,7 @@
 			"token": "accordion",
 			"note": "this does nothing right now!"
 		}
-	]
+	],
 	"wrappers": [
 		{
 			"token": "activity",
