@@ -1,6 +1,12 @@
 {
 	"start": "#",
 	"end": "/",
+	"interactive": [
+		{
+			"token": "accordion",
+			"note": "this does nothing right now!"
+		}
+	]
 	"wrappers": [
 		{
 			"token": "activity",
@@ -23,7 +29,7 @@
 			"wrapper": "<div class='case'>"
 		},
 		{
-			"token": "citation",
+			"token": "cite",
 			"wrapper": "<div class='cite'>"
 		},
 		{
