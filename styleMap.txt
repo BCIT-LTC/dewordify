@@ -1,5 +1,3 @@
-p[style-name='Title'] 			  => h1.title
-p[style-name='Subtitle'] 		  => h1.title > small:fresh
 p[style-name='heading 5'] 		  => h5
 p[style-name='heading 6'] 		  => h6
 p[style-name='heading 7'] 		  => p:fresh > strong > em
