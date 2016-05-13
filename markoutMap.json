@@ -54,7 +54,7 @@
 		},
 		{
 			"token": "image",
-			"wrapper": "<div class='image'>"
+			"wrapper": "<figure class='image'>"
 		},
 		{
 			"token": "info",
@@ -119,6 +119,10 @@
 		{
 			"token": "warning",
 			"wrapper": "<div class='warning'>"
+		},
+		{
+			"token": "table",
+			"wrapper": "<figure class='table'>"
 		}
   ]
 }
