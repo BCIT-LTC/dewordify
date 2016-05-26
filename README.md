@@ -2,6 +2,8 @@
 
 Dewordify is used to facilitate the development of online course materials by converting MS Word documents into HTML pages.
 
+1. Install node [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+2. Install dewordify
 
 ```
 npm install -g dewordify
