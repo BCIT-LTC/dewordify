@@ -13,12 +13,14 @@ var docx = process.argv[2] || docxChooser(process.cwd());
 mammothize(docx).then(function(_html) {
 	var html = _html;
 	var htmlArray;
+	var longScroll;
 	
 	statsTracker(html);
 	
 	html = normalize(html);
 	htmlArray = paginate(html);
 	htmlArray = markout(htmlArray);
+	htmlArray.push(htmlArray.join("")); // Adds a preview page
 	htmlArray = templatize(htmlArray,".container");
 	fileWriter(htmlArray);
 });
