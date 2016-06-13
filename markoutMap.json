@@ -1,128 +1,143 @@
 {
-	"start": "#",
-	"end": "/",
-	"interactive": [
-		{
-			"token": "accordion",
-			"note": "this does nothing right now!"
+    "start": "#",
+    "end": "/",
+    "interactive": [
+        {
+            "token": "accordion",
+            "note": "this does nothing right now!"
+		},
+        {
+            "token": "reveal",
+            "note": "this does nothing right now!"
 		}
 	],
-	"wrappers": [
-		{
-			"token": "activity",
-			"wrapper": "<div class='activity'>"
+    "wrappers": [
+        {
+            "token": "table",
+            "wrapper": "<figure class='table'>"
 		},
-		{
+        {
+            "token": "image",
+            "wrapper": "<figure class='image'>"
+		},
+        {
+            "token": "audio",
+            "wrapper": "<figure class='audio'>"
+		},
+        {
+            "token": "video",
+            "wrapper": "<figure class='video'>"
+		},
+        {
+            "token": "quote",
+            "wrapper": "<div class='quote'>"
+		},
+        {
+            "token": "example",
+            "wrapper": "<div class='example'>"
+		},
+        {
+            "token": "links",
+            "wrapper": "<div class='links'>"
+		},
+        {
+            "token": "note",
+            "wrapper": "<div class='note'>"
+		},
+        {
+            "token": "definition",
+            "wrapper": "<div class='definition'>"
+		},
+        {
+            "token": "key-points",
+            "wrapper": "<div class='key-points'>"
+		},
+        {
+            "token": "warning",
+            "wrapper": "<div class='warning'>"
+		},
+        {
+            "token": "assignment",
+            "wrapper": "<div class='assignment'>"
+		},
+        {
+            "token": "quiz",
+            "wrapper": "<div class='quiz'>"
+		},
+        {
+            "token": "activity",
+            "wrapper": "<div class='activity'>"
+		},
+        {
+            "token": "case",
+            "wrapper": "<div class='case'>"
+		},
+        {
+            "token": "discussion",
+            "wrapper": "<div class='discussion'>"
+		},
+        {
+            "token": "group-activity",
+            "wrapper": "<div class='group-activity'>"
+		},
+        {
+            "token": "outcomes",
+            "wrapper": "<div class='outcomes'>"
+		},
+        {
+            "token": "readings",
+            "wrapper": "<div class='readings'>"
+		},
+        {
+            "token": "reflection",
+            "wrapper": "<div class='reflection'>"
+		},
+        {
+            "token": "review",
+            "wrapper": "<div class='review'>"
+		}
+  ]
+}
+
+/*
+{
 			"token": "alert",
 			"wrapper": "<div class='alert'>"
-		},
-		{
-			"token": "assignment",
-			"wrapper": "<div class='assignment'>"
 		},
 		{
 			"token": "caption",
 			"wrapper": "<div class='caption'>"
 		},
 		{
-			"token": "case",
-			"wrapper": "<div class='case'>"
-		},
-		{
 			"token": "cite",
 			"wrapper": "<div class='cite'>"
-		},
-		{
-			"token": "definition",
-			"wrapper": "<div class='definition'>"
-		},
-		{
-			"token": "discussion",
-			"wrapper": "<div class='discussion'>"
-		},
-		{
-			"token": "example",
-			"wrapper": "<div class='example'>"
-		},
-		{
-			"token": "group-activity",
-			"wrapper": "<div class='group-activity'>"
 		},
 		{
 			"token": "hint",
 			"wrapper": "<div class='hint'>"
 		},
 		{
-			"token": "image",
-			"wrapper": "<figure class='image'>"
-		},
-		{
 			"token": "info",
 			"wrapper": "<div class='info'>"
-		},
-		{
-			"token": "keypoints",
-			"wrapper": "<div class='keypoints'>"
-		},
-		{
-			"token": "links",
-			"wrapper": "<div class='links'>"
 		},
 		{
 			"token": "message",
 			"wrapper": "<div class='message'>"
 		},
 		{
-			"token": "note",
-			"wrapper": "<div class='note'>"
-		},
-		{
 			"token": "notification",
 			"wrapper": "<div class='notification'>"
-		},
-		{
-			"token": "outcomes",
-			"wrapper": "<div class='outcomes'>"
 		},
 		{
 			"token": "procedure",
 			"wrapper": "<div class='procedure'>"
 		},
 		{
-			"token": "quiz",
-			"wrapper": "<div class='quiz'>"
-		},
-		{
-			"token": "quote",
-			"wrapper": "<div class='quote'>"
-		},
-		{
-			"token": "readings",
-			"wrapper": "<div class='readings'>"
-		},
-		{
-			"token": "reflection",
-			"wrapper": "<div class='reflection'>"
-		},
-		{
 			"token": "reminder",
 			"wrapper": "<div class='reminder'>"
-		},
-		{
-			"token": "review",
-			"wrapper": "<div class='review'>"
 		},
 		{
 			"token": "to-do",
 			"wrapper": "<div class='to-do'>"
 		},
-		{
-			"token": "warning",
-			"wrapper": "<div class='warning'>"
-		},
-		{
-			"token": "table",
-			"wrapper": "<figure class='table'>"
-		}
-  ]
-}
+*/
