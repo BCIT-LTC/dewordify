@@ -10,7 +10,7 @@
             "token": "reveal",
             "note": "this does nothing right now!"
 		},
-	],
+	]
     "wrappers": [
         {
             "token": "table",
