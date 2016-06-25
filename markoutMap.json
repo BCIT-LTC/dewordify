@@ -9,7 +9,7 @@
         {
             "token": "reveal",
             "note": "this does nothing right now!"
-		}
+		},
 	],
     "wrappers": [
         {
@@ -98,46 +98,3 @@
 		}
   ]
 }
-
-/*
-{
-			"token": "alert",
-			"wrapper": "<div class='alert'>"
-		},
-		{
-			"token": "caption",
-			"wrapper": "<div class='caption'>"
-		},
-		{
-			"token": "cite",
-			"wrapper": "<div class='cite'>"
-		},
-		{
-			"token": "hint",
-			"wrapper": "<div class='hint'>"
-		},
-		{
-			"token": "info",
-			"wrapper": "<div class='info'>"
-		},
-		{
-			"token": "message",
-			"wrapper": "<div class='message'>"
-		},
-		{
-			"token": "notification",
-			"wrapper": "<div class='notification'>"
-		},
-		{
-			"token": "procedure",
-			"wrapper": "<div class='procedure'>"
-		},
-		{
-			"token": "reminder",
-			"wrapper": "<div class='reminder'>"
-		},
-		{
-			"token": "to-do",
-			"wrapper": "<div class='to-do'>"
-		},
-*/
