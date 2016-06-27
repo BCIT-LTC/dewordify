@@ -15,7 +15,7 @@ mammothize(docx).then(function(_html) {
 	var htmlArray;
 	var longScroll;
 	
-	statsTracker(html);
+	//statsTracker(html);
 	
 	html = normalize(html);
 	htmlArray = paginate(html);
