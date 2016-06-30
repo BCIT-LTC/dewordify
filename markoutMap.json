@@ -1,37 +1,28 @@
 {
 	"start": "#",
 	"end": "/",
-	"interactive": [
-		{
-			"token": "accordion",
-			"note": "this does nothing right now!"
-		},
-		{
-			"token": "reveal",
-			"note": "this does nothing right now!"
-		}
-	],
 	"wrappers": {
-		"table": "<figure class='table'>",
-		"image": "<figure class='image'>",
-		"audio": "<figure class='audio'>",
-		"video": "<figure class='video'>",
-		"quote": "<div class='quote'>",
-		"example": "<div class='example'>",
-		"links": "<div class='links'>",
-		"note": "<div class='note'>",
-		"definition": "<div class='definition'>",
-		"points": "<div class='key-points'>",
-		"warning": "<div class='warning'>",
-		"assignment": "<div class='assignment'>",
-		"quiz": "<div class='quiz'>",
-		"activity": "<div class='activity'>",
-		"case": "<div class='case'>",
-		"discussion": "<div class='discussion'>",
-		"activity": "<div class='group-activity'>",
-		"outcomes": "<div class='outcomes'>",
-		"readings": "<div class='readings'>",
-		"reflection": "<div class='reflection'>",
-		"review": "<div class='review'>"
+		"accordion":	"<div class='accordion'>",
+		"reveal":		"<div class='reveal'>",
+		"activity":		"<div class='activity'>",
+		"assignment":	"<div class='assignment'>",
+		"audio":		"<figure class='audio'>",
+		"case":			"<div class='case'>",
+		"definition":	"<div class='definition'>",
+		"discussion":	"<div class='discussion'>",
+		"example":		"<div class='example'>",
+		"image":		"<figure class='image'>",
+		"links":		"<div class='links'>",
+		"note":			"<div class='note'>",
+		"outcomes":		"<div class='outcomes'>",
+		"points":		"<div class='key-points'>",
+		"quiz":			"<div class='quiz'>",
+		"quote":		"<div class='quote'>",
+		"readings":		"<div class='readings'>",
+		"reflection":	"<div class='reflection'>",
+		"review":		"<div class='review'>",
+		"table":		"<figure class='table'>",
+		"video":		"<figure class='video'>",
+		"warning":		"<div class='warning'>",
 	}
 }
