@@ -23,6 +23,6 @@
 		"review":		"<div class='review'>",
 		"table":		"<figure class='table'>",
 		"video":		"<figure class='video'>",
-		"warning":		"<div class='warning'>",
+		"warning":		"<div class='warning'>"
 	}
 }
