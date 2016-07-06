@@ -15,12 +15,16 @@ mammothize(docx).then(function(_html) {
 	var htmlArray;
 	var longScroll;
 	
-	//statsTracker(html);
 	
 	html = normalize(html);
 	htmlArray = paginate(html);
 	htmlArray = markout(htmlArray);
-	htmlArray.push(htmlArray.join("")); // Adds a preview page
+	
+	// Adds a preview page
+	htmlArray.push(htmlArray.join("")); 
+	
+	// Uses preview page to gather module statistics
+	statsTracker(htmlArray[htmlArray.length - 1]); 
 	htmlArray = templatize(htmlArray,".container");
 	fileWriter(htmlArray);
 });
