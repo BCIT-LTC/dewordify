@@ -20,7 +20,7 @@ Keywords: {values}
 	* SubHeadings = {value}
 * Complex Structures = {subTotalValue}
 	* Tables = {value}
-    * Lists = {value}
+	* Lists = {value}
 	* Images = {value}
 	* Audio = {value}
 	* Videos = {value}
