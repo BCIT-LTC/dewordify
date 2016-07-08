@@ -9,33 +9,30 @@
 
 ----
 
-*** Title: *** {value}
+Title: {value}
 
-*** Keywords: *** {values}
+Keywords: {values}
 
 ----
 
-*** Pages ***
-* Pages (Headings) = {value}
-* SubHeadings = {value}
-
-*** Tables: ***
-* Tables = {value}
-
-*** Media Objects ***
-* Audio files = {value}
-* Images = {value}
-* Videos = {value}
-
-*** Containers ***
-* ** Quotes ** = {value}
-* ** Notes ** = {subTotalValue}
+* Pages:
+	* Pages (Headings) = {value}
+	* SubHeadings = {value}
+* Complex Structures = {subTotalValue}
+	* Tables = {value}
+    * Lists = {value}
+	* Images = {value}
+	* Audio = {value}
+	* Videos = {value}
+* Containers = {subTotalValue}
+	* Quotes = {value}
+	* Notes = {subTotalValue}
     * Definitions = {value}
     * Examples = {value}
     * Key-Points = {value}
     * Links = {value}
-* ** Assessments ** = {subTotalValue}
+* Assessments = {subTotalValue}
     * Assignments = {value}
     * Quizzes = {value}
-* ** Activities ** = {subTotalValue}
+* Activities = {subTotalValue}
     * Activities = {value}
