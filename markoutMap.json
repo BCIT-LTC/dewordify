@@ -2,27 +2,36 @@
 	"start": "#",
 	"end": "/",
 	"wrappers": {
-		"accordion":	"<div class='accordion'>",
-		"reveal":		"<div class='reveal'>",
-		"activity":		"<div class='activity'>",
-		"assignment":	"<div class='assignment'>",
-		"audio":		"<figure class='audio'>",
-		"case":			"<div class='case'>",
-		"definition":	"<div class='definition'>",
-		"discussion":	"<div class='discussion'>",
-		"example":		"<div class='example'>",
-		"image":		"<figure class='image'>",
-		"key-points":	"<div class='key-points'>",
-		"links":		"<div class='links'>",
-		"note":			"<div class='note'>",
-		"outcomes":		"<div class='outcomes'>",
-		"quiz":			"<div class='quiz'>",
-		"quote":		"<div class='quote'>",
-		"readings":		"<div class='readings'>",
-		"reflection":	"<div class='reflection'>",
-		"review":		"<div class='review'>",
-		"table":		"<figure class='table'>",
-		"video":		"<figure class='video'>",
-		"warning":		"<div class='warning'>"
+		"table":		  "<figure class='table'>",
+
+        "audio":		  "<figure class='audio'>",
+		"image":	      "<figure class='image'>",
+		"video":		  "<figure class='video'>",
+
+        "quote":	      "<div class='quote'>",
+        "ref":	     	  "<div class='reference'>",
+
+		"definition":	  "<div class='definition'>",
+		"example":	      "<div class='example'>",
+		"key-points":     "<div class='key-points'>",
+		"links":	      "<div class='links'>",
+		"note":		      "<div class='note'>",
+		"warning":		  "<div class='warning'>",
+
+		"assignment":     "<div class='assignment'>",
+		"quiz":			  "<div class='quiz'>",
+
+        "activity":		  "<div class='activity'>",
+        "case":           "<div class='case'>",
+		"discussion":     "<div class='discussion'>",
+		"group-activity": "<div class='group-activity'>",
+		"outcomes":       "<div class='outcomes'>",
+		"readings":		  "<div class='readings'>",
+		"reflection":	  "<div class='reflection'>",
+		"review":		  "<div class='review'>",
+
+        "accordion":	  "<div class='accordion'>",
+		"reveal":		  "<div class='reveal'>",
+		"tab":            "<div class='tab'>"
 	}
 }
