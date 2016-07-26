@@ -13,8 +13,8 @@
 
 		"definition":	  "<div class='definition'>",
 		"example":	      "<div class='example'>",
-		"key-points":     "<div class='key-points'>",
-		"links":	      "<div class='links'>",
+		"key-point":      "<div class='key-point'>",
+		"link":	          "<div class='link'>",
 		"note":		      "<div class='note'>",
 		"warning":		  "<div class='warning'>",
 
@@ -25,13 +25,40 @@
         "case":           "<div class='case'>",
 		"discussion":     "<div class='discussion'>",
 		"group-activity": "<div class='group-activity'>",
-		"outcomes":       "<div class='outcomes'>",
-		"readings":		  "<div class='readings'>",
+		"outcome":        "<div class='outcome'>",
+		"reading":		  "<div class='reading'>",
 		"reflection":	  "<div class='reflection'>",
 		"review":		  "<div class='review'>",
 
         "accordion":	  "<div class='accordion'>",
 		"reveal":		  "<div class='reveal'>",
 		"tab":            "<div class='tab'>"
+	},
+	"mappings": {
+		"tables":			"table",
+		"images":			"image",
+		"videos":			"video",
+        "quotes":			"quote",
+		"definitions":		"definition",
+		"examples":			"example",
+		"key-points":		"key-point",
+		"keypoint":			"key-point",
+		"keypoints":		"key-point",
+		"links":			"link",
+		"notes":			"note",
+		"warnings":			"warning",
+		"assignments":		"assignment",
+		"quizes":			"quiz",
+        "activities":		"activity",
+        "cases":			"case",
+		"discussions":		"discussion",
+		"group-activities":	"group-activity",
+		"outcomes":			"outcome",
+		"readings":			"reading",
+		"reflections":		"reflection",
+		"reviews":			"review",
+        "accordions":		"accordion",
+		"reveals":			"reveal",
+		"tabs":				"tab"	
 	}
 }
