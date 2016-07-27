@@ -13,18 +13,20 @@ var docx = process.argv[2] || docxChooser(process.cwd());
 mammothize(docx).then(function(_html) {
 	var html = _html;
 	var htmlArray;
-	var longScroll;
+	var previewPage;
 	
 	
 	html = normalize(html);
 	htmlArray = paginate(html);
 	htmlArray = markout(htmlArray);
 	
-	// Adds a preview page
-	htmlArray.push(htmlArray.join("")); 
+	// Add preview page
+	previewPage = htmlArray.join("");
+	htmlArray.push(previewPage); 
 	
-	// Uses preview page to gather module statistics
-	statsTracker(htmlArray[htmlArray.length - 1]); 
 	htmlArray = templatize(htmlArray,".container");
 	fileWriter(htmlArray);
+	
+	// Evaluate preview page for statistics
+	statsTracker(previewPage); 
 });
