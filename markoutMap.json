@@ -8,7 +8,7 @@
 		"image":	      "<figure class='image'>",
 		"video":		  "<figure class='video'>",
 
-        "quote":	      "<div class='quote'>",
+        "quote":	      "<blockquote>",
         "ref":	     	  "<div class='reference'>",
 
 		"definition":	  "<div class='definition'>",
