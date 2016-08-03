@@ -31,7 +31,7 @@
 		"review":		  "<div class='review'>",
 
         "accordion":	  "<div class='accordion'>",
-		"reveal":		  "<div class='reveal'>",
+		"reveal":		  "<div class='reveal' data-button='Reveal'>",
 		"tab":            "<div class='tab'>"
 	},
 	"mappings": {
