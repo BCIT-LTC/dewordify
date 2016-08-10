@@ -6,7 +6,7 @@ Dewordify is used to facilitate the development of online course materials by co
 2. Install dewordify
 
 ```
-npm install -g dewordify
+sudo npm install -g
 ```
 
 ## Usage
