@@ -9,11 +9,11 @@
 		"video":		  "<figure class='video'>",
 
         "quote":	      "<blockquote>",
-        "ref":	     	  "<div class='reference'>",
+        "reference":	  "<div class='reference'>",
 
 		"definition":	  "<div class='definition'>",
 		"example":	      "<div class='example'>",
-		"key-point":      "<div class='key-point'>",
+		"keypoint":       "<div class='keypoint'>",
 		"link":	          "<div class='link'>",
 		"note":		      "<div class='note'>",
 		"warning":		  "<div class='warning'>",
@@ -24,7 +24,7 @@
         "activity":		  "<div class='activity'>",
         "case":           "<div class='case'>",
 		"discussion":     "<div class='discussion'>",
-		"group-activity": "<div class='group-activity'>",
+		"groupactivity":  "<div class='groupactivity'>",
 		"outcome":        "<div class='outcome'>",
 		"reading":		  "<div class='reading'>",
 		"reflection":	  "<div class='reflection'>",
@@ -36,28 +36,37 @@
 	},
 	"mappings": {
 		"tables":			"table",
-		"images":			"image",
+
+        "images":			"image",
 		"videos":			"video",
+
         "quotes":			"quote",
+		"ref":		        "reference",
+		"references":		"reference",
+        
 		"definitions":		"definition",
 		"examples":			"example",
-		"key-points":		"key-point",
-		"keypoint":			"key-point",
-		"keypoints":		"key-point",
+		"keypoints":		"keypoint",
+		"key-point":		"keypoint",
+		"key-points":		"keypoint",
 		"links":			"link",
 		"notes":			"note",
 		"warnings":			"warning",
-		"assignments":		"assignment",
+
+        "assignments":		"assignment",
 		"quizes":			"quiz",
+
         "activities":		"activity",
         "cases":			"case",
 		"discussions":		"discussion",
-		"group-activities":	"group-activity",
-		"outcomes":			"outcome",
+		"groupactivities":	"groupactivity",
+		"group-activity":	"groupactivity",
+		"group-activities":	"groupactivity",
+		"outcomes":			"outcomes",
 		"readings":			"reading",
-		"reference":		"ref",
 		"reflections":		"reflection",
 		"reviews":			"review",
+
         "accordions":		"accordion",
 		"reveals":			"reveal",
 		"tabs":				"tab"	
