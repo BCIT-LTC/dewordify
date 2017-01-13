@@ -9,8 +9,9 @@ var docxChooser = require("./lib/docxChooser");
 var statsTracker = require("./lib/statsTracker");
 
 var docx = process.argv[2] || docxChooser(process.cwd());
+var verbose = false;
 
-mammothize(docx).then(function(_html) {
+mammothize(docx,verbose).then(function(_html) {
 	var html = _html;
 	var htmlArray;
 	var previewPage;
