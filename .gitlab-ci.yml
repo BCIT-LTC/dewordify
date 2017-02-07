@@ -1,0 +1,31 @@
+variables:
+  webroot: "var/www/html"
+  projectroot: "projects/lat"
+
+stages:
+  - deploy
+
+deploy to test:
+  stage: deploy
+  script:
+  - cd "/$webroot/$projectroot/$CI_PROJECT_NAME" && pwd
+  - git reset
+  - git pull origin HEAD:master
+  environment:
+    name: test
+    url: "https://ltctest.bcit.ca/$projectroot/$CI_PROJECT_NAME"
+
+deploy to production:
+  stage: deploy
+  script:
+  - cd "/$webroot/$projectroot/$CI_PROJECT_NAME" && pwd
+  - git reset
+  - git pull origin HEAD:master
+  only:
+  - master
+  when: manual
+  environment:
+    name: production
+    url: "https://ltc.bcit.ca/$projectroot/$CI_PROJECT_NAME"
+  tags:
+  - -p
