@@ -6,6 +6,9 @@
   "bin": {
     "dewordify": "./bin/dewordify"
   },
+  "scripts": {
+    "update": "git pull && npm install -g"
+  },
   "author": {
     "name": "Mike Taylor"
   },
