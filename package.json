@@ -4,7 +4,9 @@
   "description": "Dewordify is used to facilitate the development of online course materials by converting MS Word documents into HTML pages.",
   "main": "index.js",
   "bin": {
-    "dewordify": "./bin/dewordify"
+    "dewordify": "./bin/dewordify",
+    "munch": "./bin/munch",
+    "estimate": "./bin/estimate"
   },
   "scripts": {
     "update": "git pull && npm install -g"
