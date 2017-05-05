@@ -1,3 +1,5 @@
+"use strict";
+
 var mammothize = require("./lib/mammothize");
 var normalize = require("./lib/normalize");
 var markout = require("./lib/markout");
@@ -20,7 +22,7 @@ module.exports = function(command) {
 			dewordify(true);
 	}
 	
-}
+};
 
 function dewordify(write) {
 	var docx = docxChooser(process.cwd());
