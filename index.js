@@ -1,6 +1,6 @@
 "use strict";
 
-var mammothize = require("./lib/mammothize");
+var woolly = require("./lib/woolly-mammoth");
 var normalize = require("./lib/normalize");
 var markout = require("./lib/markout");
 var paginate = require("./lib/paginate");
@@ -10,55 +10,54 @@ var docxChooser = require("./lib/docxChooser");
 var statsTracker = require("./lib/statsTracker");
 var munch = require("./lib/munch");
 
-module.exports = function(command) {
-	switch(command) {
+var writeFiles = true;
+
+module.exports = function (command) {
+	switch (command) {
 		case "munch":
 			munch();
 			break;
 		case "estimate":
-			estimate();
+			writeFiles = false;
+			dewordify();
 			break;
 		default:
-			dewordify(true);
+			dewordify();
 	}
-	
 };
 
-function dewordify(write) {
+function dewordify() {
 	var docx = docxChooser(process.cwd());
-	var verbose = false;
 
-	mammothize(docx, verbose).then(function (_html) {
-		var html = _html;
-		var htmlArray;
-		var previewPage;
-
-
-		html = normalize(html);
-		htmlArray = paginate(html);
-		htmlArray = markout(htmlArray);
-
-		// Add preview page
-		previewPage = htmlArray.join("");
-		htmlArray.push(previewPage);
-
-		htmlArray = templatize(htmlArray, ".container");
-		
-
-		// Evaluate preview page for statistics
-		statsTracker(previewPage);
-
-		if(write) {
-			// write files
-			fileWriter(htmlArray);
-			
-			// munch file names
-			//munch(); // TODO: Ensure this only runs after the file writer is complete.
-		}
-		
-	});
+	woolly.readFile(docx)
+		.then(woolly.displayWarnings)
+		.then(woolly.getHTML)
+		.then(processHTML);
 }
 
-function estimate() {
-	dewordify(false);
+function processHTML(html) {
+	var normalizedHTML;
+	var htmlArray;
+	var previewPage;
+
+	normalizedHTML = normalize(html);
+	htmlArray = paginate(normalizedHTML);
+	htmlArray = markout(htmlArray);
+
+	// Add preview page
+	previewPage = htmlArray.join("");
+	htmlArray.push(previewPage);
+
+	htmlArray = templatize(htmlArray, ".container");
+
+	// Evaluate preview page for statistics
+	statsTracker(previewPage);
+
+	if (writeFiles) {
+		// write files
+		fileWriter(htmlArray);
+
+		// munch file names
+		//munch(); // TODO: Ensure this only runs after the file writer is complete.
+	}
 }
