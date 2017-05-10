@@ -7,7 +7,6 @@ var paginate = require("./lib/paginate");
 var templatize = require("./lib/templatize");
 var fileWriter = require("./lib/fileWriter");
 var docxChooser = require("./lib/docxChooser");
-var statsTracker = require("./lib/statsTracker");
 var munch = require("./lib/munch");
 
 var writeFiles = true;
@@ -49,9 +48,6 @@ function processHTML(html) {
 	htmlArray.push(previewPage);
 
 	htmlArray = templatize(htmlArray, ".container");
-
-	// Evaluate preview page for statistics
-	statsTracker(previewPage);
 
 	if (writeFiles) {
 		// write files
