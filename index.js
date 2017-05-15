@@ -42,11 +42,6 @@ function processHTML(html) {
 	normalizedHTML = normalize(html);
 	htmlArray = paginate(normalizedHTML);
 	htmlArray = markout(htmlArray);
-
-	// Add preview page
-	previewPage = htmlArray.join("");
-	htmlArray.push(previewPage);
-
 	htmlArray = templatize(htmlArray, ".container");
 
 	if (writeFiles) {
