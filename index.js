@@ -4,8 +4,7 @@ var woolly = require("./lib/woolly-mammoth");
 var normalize = require("./lib/normalize");
 var markout = require("./lib/markout");
 var paginate = require("./lib/paginate");
-var templatize = require("./lib/templatize");
-var fileWriter = require("./lib/fileWriter");
+var pageGenerator = require("./lib/pageGenerator");
 var docxChooser = require("./lib/docxChooser");
 var munch = require("./lib/munch");
 
@@ -42,11 +41,10 @@ function processHTML(html) {
 	normalizedHTML = normalize(html);
 	htmlArray = paginate(normalizedHTML);
 	htmlArray = markout(htmlArray);
-	htmlArray = templatize(htmlArray, ".container");
 
 	if (writeFiles) {
 		// write files
-		fileWriter(htmlArray);
+		pageGenerator(htmlArray);
 
 		// munch file names
 		//munch(); // TODO: Ensure this only runs after the file writer is complete.
