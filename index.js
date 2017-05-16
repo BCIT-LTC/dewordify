@@ -36,7 +36,6 @@ function dewordify() {
 function processHTML(html) {
 	var normalizedHTML;
 	var htmlArray;
-	var previewPage;
 
 	normalizedHTML = normalize(html);
 	htmlArray = paginate(normalizedHTML);
