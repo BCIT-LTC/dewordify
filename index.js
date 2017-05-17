@@ -7,6 +7,11 @@ var paginate = require("./lib/paginate");
 var pageGenerator = require("./lib/pageGenerator");
 var docxChooser = require("./lib/docxChooser");
 var munch = require("./lib/munch");
+var fileFinder = require("./lib/fileFinder");
+
+var styleMapPath = fileFinder("styleMap.txt");
+var markoutMapPath = fileFinder("markoutMap.json");
+var templatePath = fileFinder("template.html");
 
 var writeFiles = true;
 
@@ -27,7 +32,7 @@ module.exports = function (command) {
 function dewordify() {
 	var docx = docxChooser(process.cwd());
 
-	woolly.readFile(docx)
+	woolly.readFile(docx, styleMapPath)
 		.then(woolly.displayWarnings)
 		.then(woolly.getHTML)
 		.then(processHTML);
@@ -39,11 +44,11 @@ function processHTML(html) {
 
 	normalizedHTML = normalize(html);
 	htmlArray = paginate(normalizedHTML);
-	htmlArray = markout(htmlArray);
+	htmlArray = markout(htmlArray, markoutMapPath);
 
 	if (writeFiles) {
 		// write files
-		pageGenerator(htmlArray);
+		pageGenerator(htmlArray, templatePath);
 
 		// munch file names
 		//munch(); // TODO: Ensure this only runs after the file writer is complete.
