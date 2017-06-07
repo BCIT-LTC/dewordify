@@ -8,6 +8,9 @@
     "munch": "./bin/munch",
     "estimate": "./bin/estimate"
   },
+  "engines": {
+    "node": ">=6"
+  },
   "scripts": {
     "update": "git pull && npm install -g"
   },
