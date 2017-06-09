@@ -23,7 +23,7 @@ dewordify file_name.docx
 ```
 ## Customization
 
-### HTML Template
+### HTML Templates
 By default, Dewordify uses an HTML template designed for use in the production of courses at BCIT.  This is not ideal for anybody but BCIT.
 
 If you would like to use your own custom template, simply include a file called `template.html` in the same folder as the word document you would like to convert.
@@ -45,8 +45,13 @@ Take a look at the following structure:
 ```
 In this example both 01.docx and 02.docx will use the common template found in the modules folder, while 00.docx has a custom template.
 
-#### Important:
-Dewordify requires `template.html` to have a single tag with a container class (eg. `<div class="container"/>`).  Dewordify will place the contents into that tag.  For reference, you can find an example in the `default-files` folder found in the root of Dewordify.
+#### Content Placement
+When you create your `template.html`, you might ask "where will my content go".  This question actually has multiple answers.  In priority order:
+1. Wherever you place a `<content/>` or `<content></content>` tag (the tag itself will be removed).
+2. Inside a tag with `class="container` (Depracated!)
+3. Prepended to the `<body>` tag (allowing for footer text and low priority `<script>` tags)
+
+If none of these conditions are met, only the contents will be returned.
 
 ### Markout:
 "Markout" is the name we've given to our unique syntax for indicating blocks of content that require custom styling.  Markout consists of 3 items used in combination to form "markers":
