@@ -9,6 +9,20 @@ Dewordify is used to facilitate the development of online course materials by co
 (sudo) npm install -g
 ```
 
+## Updates
+
+This package includes an NPM script that allows updates with a single line:
+
+```
+(sudo) npm run update
+```
+
+The above command is just sugar for the following commands which you can just as easily run instead:
+
+```
+git pull && npm install -g
+```
+
 ## Usage
 In the command line, navigate to the location of the Word Document (docx) and run
 
