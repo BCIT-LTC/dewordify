@@ -49,8 +49,5 @@ function processHTML(html) {
 	if (writeFiles) {
 		// write files
 		pageGenerator(htmlArray, templatePath);
-
-		// munch file names
-		//munch(); // TODO: Ensure this only runs after the file writer is complete.
 	}
 }
