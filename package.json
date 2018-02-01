@@ -6,7 +6,8 @@
   "bin": {
     "dewordify": "./bin/dewordify",
     "munch": "./bin/munch",
-    "estimate": "./bin/estimate"
+    "estimate": "./bin/estimate",
+	  "strip": "./bin/strip"
   },
   "engines": {
     "node": ">=6"

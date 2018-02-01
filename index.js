@@ -7,6 +7,7 @@ var paginate = require("./lib/paginate");
 var pageGenerator = require("./lib/pageGenerator");
 var docxChooser = require("./lib/docxChooser");
 var munch = require("./lib/munch");
+var strip = require("./lib/strip");
 var fileFinder = require("./lib/fileFinder");
 
 var styleMapPath = fileFinder("styleMap.txt");
@@ -23,6 +24,9 @@ module.exports = function (command) {
 		case "estimate":
 			writeFiles = false;
 			dewordify();
+			break;
+		case "strip":
+			strip();
 			break;
 		default:
 			dewordify();
