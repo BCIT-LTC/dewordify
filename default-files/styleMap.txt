@@ -1,3 +1,4 @@
+comment-reference => span.word-comment
 p[style-name='heading 5'] 		  => h5
 p[style-name='heading 6'] 		  => h6
 p[style-name='heading 7'] 		  => p:fresh > strong > em
