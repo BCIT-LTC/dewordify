@@ -1,14 +1,15 @@
 "use strict";
 
-var woolly = require("./lib/woolly-mammoth");
-var normalize = require("./lib/normalize");
-var markout = require("./lib/markout");
-var paginate = require("./lib/paginate");
-var pageGenerator = require("./lib/pageGenerator");
-var docxChooser = require("./lib/docxChooser");
 var munch = require("./lib/munch");
 var strip = require("./lib/strip");
 var fileFinder = require("./lib/fileFinder");
+var docxChooser = require("./lib/docxChooser");
+var woolly = require("./lib/woolly-mammoth");
+var normalize = require("./lib/normalize");
+var paginate = require("./lib/paginate");
+var markout = require("./lib/markout");
+var statsTracker = require("./lib/statsTracker");
+var pageGenerator = require("./lib/pageGenerator");
 
 var styleMapPath = fileFinder("styleMap.txt");
 var markoutMapPath = fileFinder("markoutMap.json");
@@ -49,6 +50,7 @@ function processHTML(html) {
 	normalizedHTML = normalize(html);
 	htmlArray = paginate(normalizedHTML);
 	htmlArray = markout(htmlArray, markoutMapPath);
+	statsTracker(htmlArray, markoutMapPath);
 
 	if (writeFiles) {
 		// write files
