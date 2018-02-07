@@ -5,6 +5,7 @@ var strip = require("./lib/strip");
 var fileFinder = require("./lib/fileFinder");
 var docxChooser = require("./lib/docxChooser");
 var woolly = require("./lib/woolly-mammoth");
+var hyperlinker = require("./lib/hyperlinker");
 var normalize = require("./lib/normalize");
 var paginate = require("./lib/paginate");
 var markout = require("./lib/markout");
@@ -47,8 +48,9 @@ function processHTML(html) {
 	var normalizedHTML;
 	var htmlArray;
 
-	normalizedHTML = normalize(html);
-	htmlArray = paginate(normalizedHTML);
+	html = hyperlinker(html);
+	html = normalize(html);
+	htmlArray = paginate(html);
 	htmlArray = markout(htmlArray, markoutMapPath);
 	statsTracker(htmlArray, markoutMapPath);
 
