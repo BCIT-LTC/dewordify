@@ -33,6 +33,7 @@
 
 		"accordion":			"<div class='accordion'>",
 		"reveal":				"<div class='reveal' data-button='Reveal'>",
+		"self-test":			"<div class='self-test'>",
 		"html-comment":		"<div class='html-comment'>"
 	},
 	"mappings": {
@@ -69,6 +70,9 @@
 		"reviews":				"review",
 
 		"accordions":			"accordion",
-		"reveals":				"reveal"
+		"reveals":				"reveal",
+		"self-tests":			"self-test",
+		"selftest":				"self-test",
+		"selftests":			"self-test"
 	}
 }
