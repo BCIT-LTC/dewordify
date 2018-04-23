@@ -1,15 +1,15 @@
 {
-	"start":						"#",
+	"start":					"#",
 	"end":						"/",
 	"wrappers": {
-		"table":					"<figure class='table'>",
+		"table":				"<figure class='table'>",
 
-		"audio":					"<figure class='audio'>",
-		"image":					"<figure class='image'>",
-		"video":					"<figure class='video'>",
+		"audio":				"<figure class='audio'>",
+		"image":				"<figure class='image'>",
+		"video":				"<figure class='video'>",
 		"math":					"<figure class='math'>",
 
-		"quote":					"<blockquote>",
+		"quote":				"<blockquote>",
 		"reference":			"<div class='reference'>",
 
 		"definition":			"<div class='definition'>",
@@ -34,7 +34,8 @@
 		"accordion":			"<div class='accordion'>",
 		"reveal":				"<div class='reveal' data-button='Reveal'>",
 		"self-test":			"<div class='self-test'>",
-		"html-comment":		"<div class='html-comment'>"
+		"swapper":				"<div class='swapper'>",
+		"html-comment":			"<div class='html-comment'>"
 	},
 	"mappings": {
 		"tables":				"table",
@@ -51,19 +52,19 @@
 		"key-points":			"key-point",
 		"keypoint":				"key-point",
 		"keypoints":			"key-point",
-		"links":					"link",
-		"notes":					"note",
+		"links":				"link",
+		"notes":				"note",
 		"warnings":				"warning",
 
 		"assignments":			"assignment",
 		"quizes":				"quiz",
 
 		"activities":			"activity",
-		"cases":					"case",
+		"cases":				"case",
 		"discussions":			"discussion",
-		"group-activities":	"group-activity",
+		"group-activities":		"group-activity",
 		"groupactivity":		"group-activity",
-		"groupactivities":	"group-activity",
+		"groupactivities":		"group-activity",
 		"outcomes":				"outcome",
 		"readings":				"reading",
 		"reflections":			"reflection",
@@ -73,6 +74,10 @@
 		"reveals":				"reveal",
 		"self-tests":			"self-test",
 		"selftest":				"self-test",
-		"selftests":			"self-test"
+		"selftests":			"self-test",
+		"swappers":				"swapper",
+		"swap":					"swapper",
+		"swaper":				"swapper",
+		"swapers":				"swapper"
 	}
 }
