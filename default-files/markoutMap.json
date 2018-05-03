@@ -35,7 +35,8 @@
 		"reveal":				"<div class='reveal' data-button='Reveal'>",
 		"self-test":			"<div class='self-test'>",
 		"swapper":				"<div class='swapper'>",
-		"html-comment":			"<div class='html-comment'>"
+		"html-comment":			"<div class='html-comment'>",
+		"interaction":			"<pre>"
 	},
 	"mappings": {
 		"tables":				"table",
@@ -75,6 +76,9 @@
 		"self-tests":			"self-test",
 		"selftest":				"self-test",
 		"selftests":			"self-test",
+		"interactions":			"interaction",
+		"interactive":			"interaction",
+		"interactivity":		"interaction",
 		"swappers":				"swapper",
 		"swap":					"swapper",
 		"swaper":				"swapper",
