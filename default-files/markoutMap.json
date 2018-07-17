@@ -5,7 +5,7 @@
 		"table":				"<figure class='table'>",
 
 		"audio":				"<figure class='audio'>",
-		"image":				"<figure class='image'>",
+		"image":				"<figure class='img'>",
 		"video":				"<figure class='video'>",
 		"math":					"<figure class='math'>",
 
