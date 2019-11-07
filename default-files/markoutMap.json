@@ -38,6 +38,7 @@
         "html-comment":             "<div class='html-comment'>",
         "checklist":                "<div class='checklist'>",
         "slider":                   "<div class='slider'>",
+        "line-matching":            "<div class='line-matching'>",
         "interaction":              "<pre>"
     },
     "mappings": {
@@ -101,6 +102,12 @@
         "imagesslider":             "slider",
         "imagessliders":            "slider",
         "images-slider":            "slider",
-        "images-sliders":           "slider"
+        "images-sliders":           "slider",
+        "line-matchings":           "line-matching",
+        "lines-matching":           "line-matching",
+        "lines-matchings":          "line-matching",
+        "linematchings":            "line-matching",
+        "linesmatching":            "line-matching",
+        "linesmatchings":           "line-matching"
     }
 }
