@@ -76,6 +76,10 @@
 
         "accordions":               "accordion",
         "reveals":                  "reveal",
+        "active-reveal":            "reveal",
+        "activereveal":             "reveal",
+        "active-reveals":           "reveal",
+        "activereveals":            "reveal",
         "knowledge-checks":         "knowledge-check",
         "knowledgecheck":           "knowledge-check",
         "knowledgechecks":          "knowledge-check",
