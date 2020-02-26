@@ -39,7 +39,8 @@
         "checklist":                "<div class='checklist'>",
         "slider":                   "<div class='slider'>",
         "line-matching":            "<div class='line-matching'>",
-        "interaction":              "<pre>"
+        "interaction":              "<pre>",
+        "side-by-side":             "<div class='side-by-side'>"
     },
     "mappings": {
         "tables":                   "table",
@@ -76,6 +77,10 @@
 
         "accordions":               "accordion",
         "reveals":                  "reveal",
+        "active-reveal":            "reveal",
+        "activereveal":             "reveal",
+        "active-reveals":           "reveal",
+        "activereveals":            "reveal",
         "knowledge-checks":         "knowledge-check",
         "knowledgecheck":           "knowledge-check",
         "knowledgechecks":          "knowledge-check",
@@ -108,6 +113,14 @@
         "lines-matchings":          "line-matching",
         "linematchings":            "line-matching",
         "linesmatching":            "line-matching",
-        "linesmatchings":           "line-matching"
+        "linesmatchings":           "line-matching",
+        "side-by-side":             "side-by-side",
+        "sidebyside":               "side-by-side",
+        "sidebysides":              "side-by-side",
+        "sidesbysides":             "side-by-side",
+        "side-by-sides":            "side-by-side",
+        "sides-by-side":            "side-by-side",
+        "sides-by-sides":           "side-by-side",
+        "side-on-side":             "side-by-side"
     }
 }
