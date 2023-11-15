@@ -2,3 +2,4 @@ node_modules
 *.bat
 Reference-Folder
 old-script.js
+package-lock.json
