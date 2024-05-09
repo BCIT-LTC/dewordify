@@ -32,6 +32,7 @@
         "review":                   "<div class='review'>",
 
         "accordion":                "<div class='accordion'>",
+        "tabs":                     "<div class='tabs'>",
         "reveal":                   "<div class='reveal' data-button='Reveal'>",
         "knowledge-check":          "<div class='knowledge-check'>",
         "swapper":                  "<div class='swapper'>",
@@ -75,6 +76,10 @@
         "reviews":                  "review",
 
         "accordions":               "accordion",
+        "tabs":                     "tabs",
+        "tab":                      "tabs",
+        "tabbed":                   "tabs",
+        "tabbeds":                  "tabs",
         "reveals":                  "reveal",
         "active-reveal":            "reveal",
         "activereveal":             "reveal",
