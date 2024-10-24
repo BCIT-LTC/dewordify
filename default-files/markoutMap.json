@@ -40,6 +40,8 @@
         "checklist":                "<div class='checklist'>",
         "slider":                   "<div class='slider'>",
         "line-matching":            "<div class='line-matching'>",
+        "doing":                    "<div class='doing'>",
+        "knowing":                  "<div class='knowing'>",
         "interaction":              "<pre>"
     },
     "mappings": {
@@ -117,6 +119,8 @@
         "lines-matchings":          "line-matching",
         "linematchings":            "line-matching",
         "linesmatching":            "line-matching",
-        "linesmatchings":           "line-matching"
+        "linesmatchings":           "line-matching",
+        "doing":                    "doing",
+        "knowing":                  "knowing"
     }
 }
